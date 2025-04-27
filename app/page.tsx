@@ -725,7 +725,7 @@ export default function Home() {
                 <div className="absolute -top-3 -left-3 text-[#0052CC] text-4xl md:text-5xl opacity-20">"</div>
                 <div className="relative z-10">
                   <p className="italic text-sm md:text-base text-muted-foreground mb-4 md:mb-6">
-                    "Avi helped book us over $15,000 worth of extra detailing jobs in just one month. His digital
+                    "Avi helped book us over $21,000 worth of extra detailing jobs in just one month. His digital
                     marketing service is worth every cent. He's sharp, reliable, and honestly better than anybody we've
                     worked with."
                   </p>
