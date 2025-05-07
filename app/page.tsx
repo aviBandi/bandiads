@@ -327,15 +327,15 @@ export default function Home() {
                 <p className="text-xs md:text-sm text-muted-foreground">Happy Clients</p>
               </div>
               <div className="text-center">
-                <p className="text-xl md:text-3xl font-bold text-[#0052CC]">300+</p>
+                <p className="text-xl md:text-3xl font-bold text-[#0052CC]">400+</p>
                 <p className="text-xs md:text-sm text-muted-foreground">Leads Generated</p>
               </div>
               <div className="text-center">
-                <p className="text-xl md:text-3xl font-bold text-[#0052CC]">$120K+</p>
+                <p className="text-xl md:text-3xl font-bold text-[#0052CC]">$130K+</p>
                 <p className="text-xs md:text-sm text-muted-foreground">Revenue Driven</p>
               </div>
               <div className="text-center">
-                <p className="text-xl md:text-3xl font-bold text-[#0052CC]">20x</p>
+                <p className="text-xl md:text-3xl font-bold text-[#0052CC]">30x</p>
                 <p className="text-xs md:text-sm text-muted-foreground">Average ROA</p>
               </div>
             </div>
@@ -702,11 +702,11 @@ export default function Home() {
             {/* Stats section */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mb-8 md:mb-12">
               <div className="bg-background rounded-lg p-4 md:p-6 shadow-sm border border-[#0052CC]/10 text-center">
-                <p className="text-xl md:text-3xl font-bold text-[#0052CC] mb-1">$120K+</p>
+                <p className="text-xl md:text-3xl font-bold text-[#0052CC] mb-1">$130K+</p>
                 <p className="text-xs md:text-sm text-muted-foreground">Revenue Generated</p>
               </div>
               <div className="bg-background rounded-lg p-4 md:p-6 shadow-sm border border-[#0052CC]/10 text-center">
-                <p className="text-xl md:text-3xl font-bold text-[#0052CC] mb-1">300+</p>
+                <p className="text-xl md:text-3xl font-bold text-[#0052CC] mb-1">400+</p>
                 <p className="text-xs md:text-sm text-muted-foreground">Leads Delivered</p>
               </div>
               <div className="bg-background rounded-lg p-4 md:p-6 shadow-sm border border-[#0052CC]/10 text-center">
@@ -714,7 +714,7 @@ export default function Home() {
                 <p className="text-xs md:text-sm text-muted-foreground">Happy Clients</p>
               </div>
               <div className="bg-background rounded-lg p-4 md:p-6 shadow-sm border border-[#0052CC]/10 text-center">
-                <p className="text-xl md:text-3xl font-bold text-[#0052CC] mb-1">20x</p>
+                <p className="text-xl md:text-3xl font-bold text-[#0052CC] mb-1">30x</p>
                 <p className="text-xs md:text-sm text-muted-foreground">Average ROA</p>
               </div>
             </div>
