@@ -323,11 +323,11 @@ export default function Home() {
             {/* Stats bar */}
             <div className="mt-12 md:mt-20 grid grid-cols-2 md:grid-cols-4 gap-4 bg-background/80 backdrop-blur-sm rounded-lg p-4 md:p-6 border shadow-sm">
               <div className="text-center">
-                <p className="text-xl md:text-3xl font-bold text-[#0052CC]">5+</p>
-                <p className="text-xs md:text-sm text-muted-foreground">Happy Clients</p>
+                <p className="text-xl md:text-3xl font-bold text-[#0052CC]">4+</p>
+                <p className="text-xs md:text-sm text-muted-foreground">Industries</p>
               </div>
               <div className="text-center">
-                <p className="text-xl md:text-3xl font-bold text-[#0052CC]">450+</p>
+                <p className="text-xl md:text-3xl font-bold text-[#0052CC]">500+</p>
                 <p className="text-xs md:text-sm text-muted-foreground">Leads Generated</p>
               </div>
               <div className="text-center">
@@ -706,12 +706,12 @@ export default function Home() {
                 <p className="text-xs md:text-sm text-muted-foreground">Revenue Generated</p>
               </div>
               <div className="bg-background rounded-lg p-4 md:p-6 shadow-sm border border-[#0052CC]/10 text-center">
-                <p className="text-xl md:text-3xl font-bold text-[#0052CC] mb-1">450+</p>
+                <p className="text-xl md:text-3xl font-bold text-[#0052CC] mb-1">500+</p>
                 <p className="text-xs md:text-sm text-muted-foreground">Leads Delivered</p>
               </div>
               <div className="bg-background rounded-lg p-4 md:p-6 shadow-sm border border-[#0052CC]/10 text-center">
-                <p className="text-xl md:text-3xl font-bold text-[#0052CC] mb-1">5+</p>
-                <p className="text-xs md:text-sm text-muted-foreground">Happy Clients</p>
+                <p className="text-xl md:text-3xl font-bold text-[#0052CC] mb-1">4+</p>
+                <p className="text-xs md:text-sm text-muted-foreground">Industries</p>
               </div>
               <div className="bg-background rounded-lg p-4 md:p-6 shadow-sm border border-[#0052CC]/10 text-center">
                 <p className="text-xl md:text-3xl font-bold text-[#0052CC] mb-1">30x</p>
