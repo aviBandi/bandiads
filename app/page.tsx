@@ -338,7 +338,6 @@ export default function Home() {
                 <p className="text-xl md:text-3xl font-bold text-[#0052CC]">4+</p>
                 <p className="text-xs md:text-sm text-muted-foreground">Industries Marketed</p>
               </div>
-
             </div>
           </div>
 
@@ -413,7 +412,8 @@ export default function Home() {
             <div className="text-center max-w-2xl mx-auto mb-10 md:mb-16">
               <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-3 md:mb-4">How We Help You Grow</h2>
               <p className="text-base md:text-lg text-muted-foreground">
-                Tired of slow seasons and no-shows? We help Minnesota service businesses consistently attract quality local customers through smart, proven digital marketing—so you can focus on what you do best.
+                Tired of slow seasons and no-shows? We help Minnesota service businesses consistently attract quality
+                local customers through smart, proven digital marketing—so you can focus on what you do best.
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-6 md:gap-8">
@@ -618,9 +618,12 @@ export default function Home() {
         <section id="why-us" className="py-12 md:py-24 bg-white">
           <div className="container px-4 md:px-6">
             <div className="text-center max-w-2xl mx-auto mb-8 md:mb-12">
-              <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-3 md:mb-4">Why Small Businesses Trust Bandi Ads</h2>
+              <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-3 md:mb-4">
+                Why Small Businesses Trust Bandi Ads
+              </h2>
               <p className="text-base md:text-lg text-muted-foreground">
-               Because you deserve more than just clicks — we bring you real customers. As Minnesotans ourselves, we know what works here and we use that insight to grow your business.
+                Because you deserve more than just clicks — we bring you real customers. As Minnesotans ourselves, we
+                know what works here and we use that insight to grow your business.
               </p>
             </div>
 
@@ -718,11 +721,10 @@ export default function Home() {
                 <p className="text-xl md:text-3xl font-bold text-[#0052CC] mb-1">4+</p>
                 <p className="text-xs md:text-sm text-muted-foreground">Industries Marketed</p>
               </div>
-
             </div>
 
             {/* Testimonials section */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6">
               <div className="bg-background rounded-lg p-5 md:p-6 shadow-sm border border-[#0052CC]/10 relative">
                 <div className="absolute -top-3 -left-3 text-[#0052CC] text-4xl md:text-5xl opacity-20">"</div>
                 <div className="relative z-10">
@@ -770,6 +772,26 @@ export default function Home() {
                     <div>
                       <p className="font-medium text-sm md:text-base">Tripp L.</p>
                       <p className="text-xs md:text-sm text-muted-foreground">Lee Landscaping</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-background rounded-lg p-5 md:p-6 shadow-sm border border-[#0052CC]/10 relative">
+                <div className="absolute -top-3 -left-3 text-[#0052CC] text-4xl md:text-5xl opacity-20">"</div>
+                <div className="relative z-10">
+                  <p className="italic text-sm md:text-base text-muted-foreground mb-4 md:mb-6">
+                    "Started with Bandi Ads in the beginning of 2025. It has complimented our current marketing strategy
+                    nicely. Avi continues to bring in high quality leads, follows through with what he says he will do,
+                    communicates well, and is knowledgeable in the subject."
+                  </p>
+                  <div className="flex items-center gap-3">
+                    <div className="h-10 w-10 md:h-12 md:w-12 rounded-full overflow-hidden border-2 border-[#0052CC]/20 bg-[#0052CC]/10 flex items-center justify-center">
+                      <span className="text-[#0052CC] font-bold text-sm md:text-base">BB</span>
+                    </div>
+                    <div>
+                      <p className="font-medium text-sm md:text-base">Ben Brokaw</p>
+                      <p className="text-xs md:text-sm text-muted-foreground">Sota Landscaping</p>
                     </div>
                   </div>
                 </div>
