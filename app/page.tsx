@@ -786,11 +786,17 @@ export default function Home() {
                     communicates well, and is knowledgeable in the subject."
                   </p>
                   <div className="flex items-center gap-3">
-                    <div className="h-10 w-10 md:h-12 md:w-12 rounded-full overflow-hidden border-2 border-[#0052CC]/20 bg-[#0052CC]/10 flex items-center justify-center">
-                      <span className="text-[#0052CC] font-bold text-sm md:text-base">BB</span>
+                    <div className="h-10 w-10 md:h-12 md:w-12 rounded-full overflow-hidden border-2 border-[#0052CC]/20">
+                      <Image
+                        src="/images/ben-brokaw.png"
+                        alt="Ben Brokaw from Sota Landscaping"
+                        width={100}
+                        height={100}
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                     <div>
-                      <p className="font-medium text-sm md:text-base">Ben Brokaw</p>
+                      <p className="font-medium text-sm md:text-base">Ben B.</p>
                       <p className="text-xs md:text-sm text-muted-foreground">Sota Landscaping</p>
                     </div>
                   </div>
