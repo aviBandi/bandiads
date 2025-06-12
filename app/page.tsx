@@ -323,11 +323,11 @@ export default function Home() {
             {/* Stats bar */}
             <div className="mt-12 md:mt-20 grid grid-cols-2 md:grid-cols-4 gap-4 bg-background/80 backdrop-blur-sm rounded-lg p-4 md:p-6 border shadow-sm">
               <div className="text-center">
-                <p className="text-xl md:text-3xl font-bold text-[#0052CC]">$210K+</p>
+                <p className="text-xl md:text-3xl font-bold text-[#0052CC]">$250K+</p>
                 <p className="text-xs md:text-sm text-muted-foreground">Revenue Driven</p>
               </div>
               <div className="text-center">
-                <p className="text-xl md:text-3xl font-bold text-[#0052CC]">600+</p>
+                <p className="text-xl md:text-3xl font-bold text-[#0052CC]">700+</p>
                 <p className="text-xs md:text-sm text-muted-foreground">Leads Generated</p>
               </div>
               <div className="text-center">
@@ -335,7 +335,7 @@ export default function Home() {
                 <p className="text-xs md:text-sm text-muted-foreground">Average ROAs</p>
               </div>
               <div className="text-center">
-                <p className="text-xl md:text-3xl font-bold text-[#0052CC]">4+</p>
+                <p className="text-xl md:text-3xl font-bold text-[#0052CC]">5+</p>
                 <p className="text-xs md:text-sm text-muted-foreground">Industries Marketed</p>
               </div>
             </div>
@@ -355,7 +355,7 @@ export default function Home() {
                 </h2>
                 <p className="text-base md:text-lg text-muted-foreground mb-4 md:mb-6">
                   Hi, I'm Avi Bandi, a high school entrepreneur and the founder of Bandi Ads. Since launching my agency,
-                  I've had the privilege of helping over 5 Minnesota businesses grow their customer base through
+                  I've had the privilege of helping multiple Minnesota businesses grow their customer base through
                   strategic, results-driven digital marketing.
                 </p>
                 <p className="text-base md:text-lg text-muted-foreground mb-4 md:mb-6">
@@ -706,11 +706,11 @@ export default function Home() {
             {/* Stats section */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mb-8 md:mb-12">
               <div className="bg-background rounded-lg p-4 md:p-6 shadow-sm border border-[#0052CC]/10 text-center">
-                <p className="text-xl md:text-3xl font-bold text-[#0052CC] mb-1">$210K+</p>
+                <p className="text-xl md:text-3xl font-bold text-[#0052CC] mb-1">$250K+</p>
                 <p className="text-xs md:text-sm text-muted-foreground">Revenue Generated</p>
               </div>
               <div className="bg-background rounded-lg p-4 md:p-6 shadow-sm border border-[#0052CC]/10 text-center">
-                <p className="text-xl md:text-3xl font-bold text-[#0052CC] mb-1">600+</p>
+                <p className="text-xl md:text-3xl font-bold text-[#0052CC] mb-1">700+</p>
                 <p className="text-xs md:text-sm text-muted-foreground">Leads Delivered</p>
               </div>
               <div className="bg-background rounded-lg p-4 md:p-6 shadow-sm border border-[#0052CC]/10 text-center">
@@ -718,7 +718,7 @@ export default function Home() {
                 <p className="text-xs md:text-sm text-muted-foreground">Average ROA</p>
               </div>
               <div className="bg-background rounded-lg p-4 md:p-6 shadow-sm border border-[#0052CC]/10 text-center">
-                <p className="text-xl md:text-3xl font-bold text-[#0052CC] mb-1">4+</p>
+                <p className="text-xl md:text-3xl font-bold text-[#0052CC] mb-1">5+</p>
                 <p className="text-xs md:text-sm text-muted-foreground">Industries Marketed</p>
               </div>
             </div>
