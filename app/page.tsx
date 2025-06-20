@@ -741,20 +741,9 @@ export default function Home() {
                     marketing service is worth every cent. He's sharp, reliable, and honestly better than anybody we've
                     worked with."
                   </p>
-                  <div className="flex items-center gap-3">
-                    <div className="h-10 w-10 md:h-12 md:w-12 rounded-full overflow-hidden border-2 border-[#0052CC]/20">
-                      <Image
-                        src="/images/sjc-precision.png"
-                        alt="Jack R. from SJC Precision Detail"
-                        width={100}
-                        height={100}
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                    <div>
-                      <p className="font-medium text-sm md:text-base">Jack R.</p>
-                      <p className="text-xs md:text-sm text-muted-foreground">SJC Precision Detail</p>
-                    </div>
+                  <div className="flex flex-col items-start">
+                    <p className="font-medium text-sm md:text-base">Jack R.</p>
+                    <p className="text-xs md:text-sm text-muted-foreground">Auto Detailing</p>
                   </div>
                 </div>
               </div>
@@ -767,20 +756,9 @@ export default function Home() {
                     company landed a $24,000 sod job. The ROI was amazing, and I couldn't be happier with the results.
                     Highly recommend his services."
                   </p>
-                  <div className="flex items-center gap-3">
-                    <div className="h-10 w-10 md:h-12 md:w-12 rounded-full overflow-hidden border-2 border-[#0052CC]/20">
-                      <Image
-                        src="/images/lee-landscaping.png"
-                        alt="Tripp L. from Lee Landscaping"
-                        width={100}
-                        height={100}
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                    <div>
-                      <p className="font-medium text-sm md:text-base">Tripp L.</p>
-                      <p className="text-xs md:text-sm text-muted-foreground">Lee Landscaping</p>
-                    </div>
+                  <div className="flex flex-col items-start">
+                    <p className="font-medium text-sm md:text-base">Tripp L.</p>
+                    <p className="text-xs md:text-sm text-muted-foreground">Landscaping</p>
                   </div>
                 </div>
               </div>
@@ -793,20 +771,9 @@ export default function Home() {
                     nicely. Avi continues to bring in high quality leads, follows through with what he says he will do,
                     communicates well, and is knowledgeable in the subject."
                   </p>
-                  <div className="flex items-center gap-3">
-                    <div className="h-10 w-10 md:h-12 md:w-12 rounded-full overflow-hidden border-2 border-[#0052CC]/20">
-                      <Image
-                        src="/images/ben-brokaw.png"
-                        alt="Ben Brokaw from Sota Landscaping"
-                        width={100}
-                        height={100}
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                    <div>
-                      <p className="font-medium text-sm md:text-base">Ben B.</p>
-                      <p className="text-xs md:text-sm text-muted-foreground">Sota Landscaping</p>
-                    </div>
+                  <div className="flex flex-col items-start">
+                    <p className="font-medium text-sm md:text-base">Ben B.</p>
+                    <p className="text-xs md:text-sm text-muted-foreground">Landscaping</p>
                   </div>
                 </div>
               </div>
