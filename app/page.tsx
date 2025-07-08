@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react"
 import { Button } from "@/components/ui/button"
-import { Facebook, Globe, MapPin, MessageSquare, MousePointerClick, Phone, Search, Mail } from "lucide-react"
+import { Facebook, MapPin, MessageSquare, MousePointerClick, Phone, Search, Mail } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { CalendlyWidget } from "@/components/calendly-widget"
@@ -17,10 +17,10 @@ export default function Home() {
 
   // Key Performance Indicators - Update these values as needed
   const KPI_METRICS = {
-    revenueGenerated: "$300K+",
-    leadsDelivered: "850+",
+    revenueGenerated: "$350K+",
+    leadsDelivered: "1250+",
     averageROAs: "30x",
-    industriesMarketed: "5+",
+    industriesMarketed: "6+",
   }
 
   // Use a ref to track if we're handling a programmatic scroll
@@ -163,7 +163,7 @@ export default function Home() {
                   <Button
                     size="lg"
                     variant="outline"
-                    className="rounded-full px-6 md:px-8 border-[#0052CC] text-[#0052CC] w-full sm:w-auto"
+                    className="rounded-full px-6 md:px-8 border-[#0052CC] text-[#0052CC] w-full sm:w-auto bg-transparent"
                     asChild
                   >
                     <a href="#services">Our Services</a>
@@ -424,7 +424,7 @@ export default function Home() {
                 local customers through smart, proven digital marketing—so you can focus on what you do best.
               </p>
             </div>
-            <div className="grid md:grid-cols-3 gap-6 md:gap-8">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
               {/* Facebook Ads */}
               <div className="bg-background rounded-lg p-6 md:p-8 shadow-sm border transition-all hover:shadow-md hover:border-[#0052CC]/30">
                 <div className="bg-[#0052CC]/10 p-3 rounded-full w-fit mb-4 md:mb-6">
@@ -490,6 +490,90 @@ export default function Home() {
                 </ul>
               </div>
 
+              {/* AI Appointment Setting */}
+              <div className="bg-background rounded-lg p-6 md:p-8 shadow-sm border transition-all hover:shadow-md hover:border-[#0052CC]/30">
+                <div className="bg-[#0052CC]/10 p-3 rounded-full w-fit mb-4 md:mb-6">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="h-5 w-5 md:h-6 md:w-6 text-[#0052CC]"
+                  >
+                    <path d="M12 8V4H8" />
+                    <rect width="16" height="12" x="4" y="8" rx="2" />
+                    <path d="M2 14h2" />
+                    <path d="M20 14h2" />
+                    <path d="M15 13v2" />
+                    <path d="M9 13v2" />
+                  </svg>
+                </div>
+                <h3 className="text-lg md:text-xl font-bold mb-2 md:mb-3">AI Appointment Setting</h3>
+                <p className="text-sm md:text-base text-muted-foreground mb-4 md:mb-6">
+                  Let AI do the follow-up for you. We build and deploy custom-trained AI agents that qualify leads, ask
+                  pre-screening questions, and book appointments automatically—so you're only talking to people ready to
+                  buy.
+                </p>
+                <ul className="space-y-2">
+                  <li className="flex items-start gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="h-4 w-4 md:h-5 md:w-5 text-[#0052CC] flex-shrink-0 mt-0.5"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    <span className="text-sm md:text-base">24/7 lead qualification</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="h-4 w-4 md:h-5 md:w-5 text-[#0052CC] flex-shrink-0 mt-0.5"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    <span className="text-sm md:text-base">Automated appointment booking</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="h-4 w-4 md:h-5 md:w-5 text-[#0052CC] flex-shrink-0 mt-0.5"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    <span className="text-sm md:text-base">Custom AI training</span>
+                  </li>
+                </ul>
+              </div>
+
               {/* Google Ads */}
               <div className="bg-background rounded-lg p-6 md:p-8 shadow-sm border transition-all hover:shadow-md hover:border-[#0052CC]/30">
                 <div className="bg-[#0052CC]/10 p-3 rounded-full w-fit mb-4 md:mb-6">
@@ -551,70 +635,6 @@ export default function Home() {
                       <polyline points="20 6 9 17 4 12" />
                     </svg>
                     <span className="text-sm md:text-base">Call & lead optimization</span>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Website Makeovers */}
-              <div className="bg-background rounded-lg p-6 md:p-8 shadow-sm border transition-all hover:shadow-md hover:border-[#0052CC]/30">
-                <div className="bg-[#0052CC]/10 p-3 rounded-full w-fit mb-4 md:mb-6">
-                  <Globe className="h-5 w-5 md:h-6 md:w-6 text-[#0052CC]" />
-                </div>
-                <h3 className="text-lg md:text-xl font-bold mb-2 md:mb-3">Website Makeovers</h3>
-                <p className="text-sm md:text-base text-muted-foreground mb-4 md:mb-6">
-                  Transform your website into a lead-generating machine that converts visitors into paying customers.
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-start gap-2">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="h-4 w-4 md:h-5 md:w-5 text-[#0052CC] flex-shrink-0 mt-0.5"
-                    >
-                      <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                    <span className="text-sm md:text-base">Mobile optimization</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="h-4 w-4 md:h-5 md:w-5 text-[#0052CC] flex-shrink-0 mt-0.5"
-                    >
-                      <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                    <span className="text-sm md:text-base">Lead capture forms</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="h-4 w-4 md:h-5 md:w-5 text-[#0052CC] flex-shrink-0 mt-0.5"
-                    >
-                      <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                    <span className="text-sm md:text-base">Local SEO improvements</span>
                   </li>
                 </ul>
               </div>
