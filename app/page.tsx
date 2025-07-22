@@ -797,6 +797,20 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+              <div className="bg-background rounded-lg p-5 md:p-6 shadow-sm border border-[#0052CC]/10 relative">
+                <div className="absolute -top-3 -left-3 text-[#0052CC] text-4xl md:text-5xl opacity-20">"</div>
+                <div className="relative z-10">
+                  <p className="italic text-sm md:text-base text-muted-foreground mb-4 md:mb-6">
+                    "Working with Avi and Bandi Ads has been a total game changer. Within the first week, we booked
+                    three deep cleans and a recurring commercial contract. Avi's communication is top-notch, and the
+                    leads just keep coming. Couldn't ask for a better partner in growing our business."
+                  </p>
+                  <div className="flex flex-col items-start">
+                    <p className="font-medium text-sm md:text-base">Matthew W.</p>
+                    <p className="text-xs md:text-sm text-muted-foreground">Exterior Cleaning</p>
+                  </div>
+                </div>
+              </div>
             </div>
 
             {/* CTA Button */}
