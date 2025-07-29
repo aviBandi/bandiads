@@ -17,10 +17,10 @@ export default function Home() {
 
   // Key Performance Indicators - Update these values as needed
   const KPI_METRICS = {
-    revenueGenerated: "$350K+",
-    leadsDelivered: "1250+",
-    averageROAs: "30x",
-    industriesMarketed: "6+",
+    revenueGenerated: "$500K+",
+    leadsDelivered: "1750+",
+    averageROAs: "25x",
+    industriesMarketed: "10+",
   }
 
   // Use a ref to track if we're handling a programmatic scroll
