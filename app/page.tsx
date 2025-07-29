@@ -1,12 +1,58 @@
 "use client"
 
-import { useEffect, useRef } from "react"
+import { useEffect, useRef, useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Facebook, MapPin, MessageSquare, MousePointerClick, Phone, Search, Mail } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { CalendlyWidget } from "@/components/calendly-widget"
 import { MobileMenu } from "@/components/mobile-menu"
+
+function TestimonialCard() {
+  const [isExpanded, setIsExpanded] = useState(false)
+
+  const fullText =
+    "Working with Avi Bandi has been an absolute game-changer for my business. Since he started running our ads, we've 25x'd both our social media outreach and monthly revenue. These are results I never thought were possible in such a short time. Avi is not only incredibly skilled at what he does, but also friendly, thoughtful, passionate, easy to communicate with and most importantly wants to see YOU win. He takes the time to understand your goals and creates effective strategies that actually deliver. If you're a small business owner looking to scale or just get your name out there, I highly recommend reaching out to Avi. He knows his stuff and genuinely cares about helping you grow."
+
+  const shortText =
+    "Working with Avi Bandi has been an absolute game-changer for my business. Since he started running our ads, we've 25x'd both our social media outreach and monthly revenue. These are results I never thought were possible in such a short time"
+
+  return (
+    <>
+      <div className="relative">
+        <p className="italic text-sm md:text-base text-muted-foreground mb-4 md:mb-6">
+          "{isExpanded ? fullText : shortText}
+          {!isExpanded && "..."}
+        </p>
+        {!isExpanded && (
+          <div className="absolute bottom-0 right-0 w-20 h-6 bg-gradient-to-l from-background to-transparent pointer-events-none"></div>
+        )}
+      </div>
+      <div className="flex justify-between items-end">
+        <div className="flex flex-col items-start">
+          <p className="font-medium text-sm md:text-base">Matthew W.</p>
+          <p className="text-xs md:text-sm text-muted-foreground">Business Owner</p>
+        </div>
+        {!isExpanded && (
+          <button
+            onClick={() => setIsExpanded(true)}
+            className="text-xs text-[#0052CC] hover:text-[#0052CC]/80 transition-colors"
+          >
+            read more
+          </button>
+        )}
+        {isExpanded && (
+          <button
+            onClick={() => setIsExpanded(false)}
+            className="text-xs text-[#0052CC] hover:text-[#0052CC]/80 transition-colors"
+          >
+            show less
+          </button>
+        )}
+      </div>
+    </>
+  )
+}
 
 export default function Home() {
   const navLinks = [
@@ -800,15 +846,7 @@ export default function Home() {
               <div className="bg-background rounded-lg p-5 md:p-6 shadow-sm border border-[#0052CC]/10 relative">
                 <div className="absolute -top-3 -left-3 text-[#0052CC] text-4xl md:text-5xl opacity-20">"</div>
                 <div className="relative z-10">
-                  <p className="italic text-sm md:text-base text-muted-foreground mb-4 md:mb-6">
-                    "Working with Avi and Bandi Ads has been a total game changer. Within the first week, we booked
-                    three deep cleans and a recurring commercial contract. Avi's communication is top-notch, and the
-                    leads just keep coming. Couldn't ask for a better partner in growing our business."
-                  </p>
-                  <div className="flex flex-col items-start">
-                    <p className="font-medium text-sm md:text-base">Matthew W.</p>
-                    <p className="text-xs md:text-sm text-muted-foreground">Exterior Cleaning</p>
-                  </div>
+                  <TestimonialCard />
                 </div>
               </div>
             </div>
