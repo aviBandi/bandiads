@@ -63,9 +63,9 @@ export default function Home() {
 
   // Key Performance Indicators - Update these values as needed
   const KPI_METRICS = {
-    revenueGenerated: "$550K+",
-    leadsDelivered: "1800+",
-    averageROAs: "15x",
+    revenueGenerated: "$700K+",
+    leadsDelivered: "2500+",
+    averageROAs: "10x",
     industriesMarketed: "10+",
   }
 
