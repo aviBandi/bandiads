@@ -54,6 +54,52 @@ function TestimonialCard() {
   )
 }
 
+function NishulTestimonialCard() {
+  const [isExpanded, setIsExpanded] = useState(false)
+
+  const fullText =
+    "Working with Avi Bandi has been one of the best marketing decisions I've made for my business. Over just the last two months, his Facebook ad campaigns have generated over $100,000 in revenue from an ad spend of roughly $5,000 — an incredible return. Avi not only understands the numbers, but he also knows how to tailor campaigns that bring in qualified leads and real results. He is professional, responsive, and clearly an expert at what he does. If you're looking for someone who can turn ad spend into serious revenue, Avi is the guy you want on your team."
+
+  const shortText =
+    "Working with Avi Bandi has been one of the best marketing decisions I've made for my business. Over just the last two months, his Facebook ad campaigns have generated over $100,000 in revenue from an ad spend of roughly $5,000 — an incredible return"
+
+  return (
+    <>
+      <div className="relative">
+        <p className="italic text-sm md:text-base text-muted-foreground mb-4 md:mb-6">
+          "{isExpanded ? fullText : shortText}
+          {!isExpanded && "..."}
+        </p>
+        {!isExpanded && (
+          <div className="absolute bottom-0 right-0 w-20 h-6 bg-gradient-to-l from-background to-transparent pointer-events-none"></div>
+        )}
+      </div>
+      <div className="flex justify-between items-end">
+        <div className="flex flex-col items-start">
+          <p className="font-medium text-sm md:text-base">Nishul P.</p>
+          <p className="text-xs md:text-sm text-muted-foreground">Remodeling</p>
+        </div>
+        {!isExpanded && (
+          <button
+            onClick={() => setIsExpanded(true)}
+            className="text-xs text-[#0052CC] hover:text-[#0052CC]/80 transition-colors"
+          >
+            read more
+          </button>
+        )}
+        {isExpanded && (
+          <button
+            onClick={() => setIsExpanded(false)}
+            className="text-xs text-[#0052CC] hover:text-[#0052CC]/80 transition-colors"
+          >
+            show less
+          </button>
+        )}
+      </div>
+    </>
+  )
+}
+
 export default function Home() {
   const navLinks = [
     { href: "#about", label: "About" },
@@ -843,10 +889,18 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+
               <div className="bg-background rounded-lg p-5 md:p-6 shadow-sm border border-[#0052CC]/10 relative">
                 <div className="absolute -top-3 -left-3 text-[#0052CC] text-4xl md:text-5xl opacity-20">"</div>
                 <div className="relative z-10">
                   <TestimonialCard />
+                </div>
+              </div>
+
+              <div className="bg-background rounded-lg p-5 md:p-6 shadow-sm border border-[#0052CC]/10 relative">
+                <div className="absolute -top-3 -left-3 text-[#0052CC] text-4xl md:text-5xl opacity-20">"</div>
+                <div className="relative z-10">
+                  <NishulTestimonialCard />
                 </div>
               </div>
             </div>
